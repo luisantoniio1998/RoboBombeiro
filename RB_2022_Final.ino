@@ -2,7 +2,7 @@
 // RB_2022 1.0
 // Controller of the kit RB.
 //
-// Author: Carlos Carreto
+// Author:Luis Barros
 // Last revision: 17/06/2022
 // ================================================================================
 
