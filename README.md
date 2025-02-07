@@ -1,4 +1,4 @@
-# FIREFIGHTER ROBOT
+# Firefighter Robot
 
 Firefighter robot project developed for Robotics Course using Arduino and C++.
 
