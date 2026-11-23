@@ -1,35 +1,15 @@
-# Firefighter Robot
+# Firefighter robot
 
-Firefighter robot project developed for Robotics Course using Arduino and C++.
+My Robotics course project: an Arduino-controlled robot that navigates, finds a flame, and uses a fan to put it out.
 
-## Hardware
-- Arduino board
-- Fire sensors
-- Motors/servos
-- Water pump
-- Ultrasonic sensors
+The main sketch, `RB_2022_Final.ino`, uses a state machine for waiting, navigation, centring on the flame, and extinguishing it. The repo also contains the motor class and separate sketches for testing sensors and actuators.
 
-## Features
-- Fire detection
-- Autonomous navigation
-- Water spraying system
-- Obstacle avoidance
-- Emergency protocols
+## Hardware and libraries
 
-## Software
-- C++ with ArduinoIDE
-- Sensor libraries
-- Motor control
-- Navigation algorithms
+The main sketch uses motors, ultrasonic sensors, bumpers, a flame sensor, an OLED display, and a fan. Pin assignments are at the top of the sketch.
 
-## Setup
-1. Connect hardware
-2. Install ArduinoIDE
-3. Upload code
-4. Calibrate sensors
+Its includes list the required libraries: `Adafruit_GFX`, `Adafruit_SH1106`, `FlameSensor`, `NewPing`, and `Wire`, plus the local `Motor` class.
 
-## Author
-Luís Barros
+## Working with the code
 
-## License
-MIT
+Open the sketch in Arduino IDE, install the matching libraries, and check the wiring against the pin definitions before uploading. The test sketches let you check individual components before running the navigation code.
